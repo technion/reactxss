@@ -1,22 +1,22 @@
 var SploitList = React.createClass({
 render: function() {
-var commentNodes = this.props.data.map(function (comment) {
+var testNodes = this.props.data.map(function (comment, index) {
         return (
-                <div>
+                <div key={index}>
                 {comment.exploit}
                 </div>
                );
         });
 return (
         <div className="commentList">
-        {commentNodes}
+        {testNodes}
         </div>
        );
 }
 });
 
 
-var CommentBox = React.createClass({
+var TestBox = React.createClass({
     getInitialState: function() {
     return {sploits: []};
     },
@@ -37,12 +37,11 @@ var CommentBox = React.createClass({
     return (
         <div className="commentBox">
         <SploitList data={this.state.sploits} />
-        Hello, world! I am a CommentBox.
         </div>
     );
     }
 });
 React.render(
-        <CommentBox url="sploits.json" />,
+        <TestBox url="sploits.json" />,
         document.getElementById('content')
         );
