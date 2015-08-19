@@ -3,6 +3,7 @@ render: function() {
 var testNodes = this.props.data.map(function (comment, index) {
         return (
                 <div key={index}>
+                "-------------------"<br />
                 {comment.exploit}
                 </div>
                );
