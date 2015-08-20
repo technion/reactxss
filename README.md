@@ -11,3 +11,9 @@ To build the javascript:
     npm install
     gulp
 
+More information
+----------------
+
+See this blog post:
+
+[https://lolware.net/2015/08/19/reactjs-xss-testing.html](https://lolware.net/2015/08/19/reactjs-xss-testing.html)
