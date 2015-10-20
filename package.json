@@ -1,0 +1,22 @@
+{
+  "name": "reactxss",
+  "version": "1.0.0",
+  "description": "React Smokescreen",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/technion/reactxss.git"
+  },
+  "author": "technion@lolware.net",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/technion/reactxss/issues"
+  },
+  "homepage": "https://github.com/technion/reactxss#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.3.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-sourcemaps": "^1.6.0"
+  }
+}
