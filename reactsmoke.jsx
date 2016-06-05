@@ -42,7 +42,7 @@ var TestBox = React.createClass({
     );
     }
 });
-React.render(
+ReactDOM.render(
         <TestBox url="sploits.json" />,
         document.getElementById('content')
         );
