@@ -1,3 +1,9 @@
+Modernised Edition
+------------------
+Now builds with Webpack, and compiles under Typescript.
+
+The only configured build is a React development build. Since this is not a production tool, this is intended.
+
 Deployment and test
 ------------------
 
@@ -9,7 +15,7 @@ Share the dist/ directory utilising any popular web server. To build the latest 
 To build the javascript:
 
     npm install
-    gulp
+    webpack 
 
 More information
 ----------------

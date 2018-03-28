@@ -4,6 +4,7 @@
         "module": "commonjs",
         "jsx": "react",
         "declaration": false,
+        "strict": true,
         "noLib": false,
         "preserveConstEnums": true,
         "sourceMap": true,
