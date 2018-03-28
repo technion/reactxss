@@ -46,7 +46,7 @@ class TestBox extends React.Component<ITestBoxProp, ISploits> {
           throw new Error("Network response returned "
               + response.status);
         }
-        return response.json() as any;
+        return response.json();
       }).then((sploits) => {
         this.setState({...this.state, sploits});
       }).catch((err) => {
