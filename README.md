@@ -17,6 +17,10 @@ To build the javascript:
     npm install
     webpack 
 
+Deployment to my server:
+
+    npm run deploy
+
 More information
 ----------------
 

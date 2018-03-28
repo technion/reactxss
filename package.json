@@ -2,6 +2,9 @@
   "name": "reactxss",
   "version": "2.0.0",
   "description": "React Smokescreen",
+  "scripts": {
+    "deploy": "aws s3 sync --delete  dist/ s3://lolware-content/reactxss/"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/technion/reactxss.git"

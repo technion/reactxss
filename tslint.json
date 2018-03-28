@@ -1,0 +1,10 @@
+{
+      "extends": "tslint:recommended",
+      "defaultSeverity": "warning",
+      "rules": {
+        "max-classes-per-file": [true, 5],
+        "ordered-imports": [false],
+        "max-line-length": [false]
+      }
+}
+
